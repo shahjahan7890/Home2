@@ -1,0 +1,25 @@
+.animated-head{
+    width: 100%;
+    padding: 50px 0;
+    h1{
+        color: $black;
+        text-align: center;
+        font-size: 40px;
+       span.ah-words-wrapper{
+           width: 100px;
+           background-color: $primary-color;
+           b{
+               color: #ffffff;
+           }
+       }
+    }
+    p{
+        text-align: center;
+        color: $black-l;
+        width: 80%;
+        margin: auto;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+}

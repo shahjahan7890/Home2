@@ -1,0 +1,74 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid #DEE2E6;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    .banner-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        // margin-top: 15%;
+        .banner-text{
+            width: 500px;
+            text-align: center;
+            padding: 50px;
+           
+    
+            .banner-img{
+                width: 100%;
+                @include clearfix;
+    
+                .banner-img-first{
+                    width: 25%;
+                    float: left;
+                    text-align: right;
+                }
+                .banner-img-text{
+                    width: 50%;
+                    float: left;
+                    vertical-align: bottom;
+                    p{
+                        color: $black-l;
+                        text-transform: uppercase;
+                        font-size: 22px;
+                        font-weight: 600;
+                        margin-top: 0px;
+                    }
+                }
+                .banner-img-last{
+                    width: 25%;
+                    float: left;
+                    text-align: left;
+                }
+            }
+            .banner-inner-text{
+                width: 100%;
+                h1{
+                    color: $black;
+                    text-transform: uppercase;
+                    font-size: 50px;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 20px;
+                    color: $black;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

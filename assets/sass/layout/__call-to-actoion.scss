@@ -1,0 +1,53 @@
+.call-to-action{
+    width: 100%;
+    background-color: #ededed;
+    padding: 40px 0;
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .text{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .inner-text{
+                width: 90%;
+                h2{
+                    font-size: 20px;
+                    color: $black;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: $black;
+                }
+            }
+            .inner-img{
+                width: 10%;
+
+            }
+        }
+        .button{
+            width: 40%;
+            text-align: right;
+            .btn{
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: $primary-color;
+                color: $white;
+                border-radius: 10px;
+            }
+            span{
+                color: $black-l;
+            }
+            .txt{
+                color: $black;
+            }
+
+        }
+    }
+}

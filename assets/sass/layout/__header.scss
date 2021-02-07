@@ -1,0 +1,51 @@
+.header{
+    @include clearfix;
+    padding: 20px 0;
+
+    .logo{
+        width: 20%;
+        float: left;
+        img{
+            width: 100px;
+        }
+    }
+    .menu{
+        width: 80%;
+        float: left;
+        ul{
+            text-align: right;
+            li{
+                display: inline-block;
+                a{
+                    display: inline-block;
+                    color: #333333;
+                    padding: 10px;
+                    font-weight: 600;
+                    font-size: 13px;
+                    &.hover:hover{
+                        border-bottom: 4px solid $primary-color;
+                        color: $primary-color;
+                    }
+                    &.active{
+                        border-bottom: 4px solid $primary-color;
+                        color: $primary-color;
+                    }
+                    i.fab{
+                        border-bottom: 1px solid #333333;
+                        padding: 10px;
+                        border-radius: 50%;
+                        font-size: 13px;
+                        line-height: 13px;
+                        text-align: center;
+                        &:hover{
+                            background-color: $primary-color;
+                            color: #fff;
+                            
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

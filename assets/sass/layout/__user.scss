@@ -1,0 +1,30 @@
+.user{
+    background-color: #ededed;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    .content{
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        p{
+            color: $black-l;
+            font-size: 14px;
+            padding: 20px 0;
+            .fa-quote-left{
+                padding: 0 20px;
+                font-size: 30px;
+            }
+            .fa-quote-right{
+                padding: 0 20px;
+                font-size: 30px;
+            }
+        }
+        .user-p{
+            color: $black;
+            font-size: 18px;
+        }
+    }
+}

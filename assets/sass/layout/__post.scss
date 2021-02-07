@@ -1,0 +1,67 @@
+.post{
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+
+    h2{
+        color: $black-l;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        strong{
+            color: $black;
+            font-size: 30px;
+            font-weight: 600;
+            padding: 0 10px;
+        }
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+      
+       .single-post{
+           display: flex;
+           flex-wrap: wrap;
+           flex-direction: row;
+           justify-content: space-around;
+           align-content: center;
+           width: 22%;
+           .date{
+            width: 20%;
+            margin-top: 10px;
+            margin-right: 10px;
+            .num{
+                font-size: 17px;
+                color: $black;
+                padding: 10px;
+                background-color: #ededed;
+                text-align: center;
+            }
+            .day{
+                color: #fff;
+                background-color: $primary-color;
+                padding: 10px;
+                text-align: center;font-size: 15px;
+            }
+            }
+            .news{
+            width: 75%;
+            h2{
+                color: $black;
+                font-size: 17px;
+                font-weight: 600;
+                margin-top: 5px;
+            }
+            p{
+                color: $black-l;
+                font-size: 14px;
+                padding: 10px 0;
+            }
+            }
+       }
+    }
+}

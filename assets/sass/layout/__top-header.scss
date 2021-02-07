@@ -1,0 +1,51 @@
+.top-bar{
+    @include clearfix;
+    background-color: #ffffff;
+    border-top: 3px solid #0083C1;
+    border-bottom: 1px solid #f4f4f4;
+
+    .contact-info{
+        width: 50%;
+        float: left;
+
+        ul{
+            text-align: left;
+            padding: 10px 0;
+        }
+        li{
+            display: inline;
+            font-size: 14px;
+            color: #B3B3B3;
+            padding: 5px 10px;
+
+            i{
+                padding: 0 5px;
+            }
+        }
+        a{
+            display: inline-block;
+            color: #B3B3B3;
+        }
+    }
+    .social-icon{
+        width: 50%;
+        float: left;
+
+        ul{
+            text-align: right;
+            padding: 10px 0;
+        }
+        li{
+            display: inline-block;
+            font-size: 14px;
+        }
+        a{
+            padding: 10px;
+            color: #b3b3b3;
+            font-size: 14px;
+            &:hover{
+                color: #0083C1;
+            }
+        }
+    }
+}
